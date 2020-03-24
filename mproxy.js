@@ -11,6 +11,7 @@ simpleselect1 = {}
 
 simpleselect.query = '[src*="jquery.min"]'
 simpleselect1.query = '[src*="jquery-ui.min"]'
+simpleselect2.query = '[name*="google_esf"]'
 
 
 simpleselect.func = function(node) {
@@ -18,6 +19,9 @@ simpleselect.func = function(node) {
 }
 simpleselect1.func = function(node) {
 	node.setAttribute('src', 'http://libs.baidu.com/jqueryui/1.8.10/jquery-ui.min.js')
+}
+simpleselect1.func = function(node) {
+	node.removeAttribute('src')
 }
 
 selects.push(simpleselect)
