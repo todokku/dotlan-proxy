@@ -8,6 +8,8 @@ const harmon = require('harmon')
 selects = []
 simpleselect = {}
 simpleselect1 = {}
+simpleselect2 = {}
+
 
 simpleselect.query = '[src*="jquery.min"]'
 simpleselect1.query = '[src*="jquery-ui.min"]'
