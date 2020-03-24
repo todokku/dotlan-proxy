@@ -1,0 +1,16 @@
+{
+  "name": "web-proxy",
+  "version": "1.0.0",
+  "description": "proxy",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NightCandle",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "harmon": "^1.4.3",
+    "http-proxy": "^1.18.0"
+  }
+}
