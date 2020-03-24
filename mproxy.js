@@ -13,7 +13,7 @@ simpleselect2 = {}
 
 simpleselect.query = '[src*="jquery.min"]'
 simpleselect1.query = '[src*="jquery-ui.min"]'
-simpleselect2.query = '[name*="google_esf"]'
+simpleselect2.query = '[src*="adsbygoogle"]'
 
 
 simpleselect.func = function(node) {
