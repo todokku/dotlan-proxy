@@ -20,12 +20,13 @@ simpleselect.func = function(node) {
 simpleselect1.func = function(node) {
 	node.setAttribute('src', 'http://libs.baidu.com/jqueryui/1.8.10/jquery-ui.min.js')
 }
-simpleselect1.func = function(node) {
+simpleselect2.func = function(node) {
 	node.removeAttribute('src')
 }
 
 selects.push(simpleselect)
 selects.push(simpleselect1)
+selects.push(simpleselect2)
 
 
 finalUrl = 'https://evemaps.dotlan.net/'
