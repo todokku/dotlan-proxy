@@ -31,7 +31,7 @@ selects.push(simpleselect1)
 selects.push(simpleselect2)
 
 
-finalUrl = 'https://evemaps.dotlan.net/'
+finalUrl = 'https://dotlan.net/'
 parsedUrl = url.parse(finalUrl)
 
 proxy = httpProxy.createProxyServer({
