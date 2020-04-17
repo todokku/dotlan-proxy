@@ -11,8 +11,8 @@ simpleselect1 = {}
 simpleselect2 = {}
 
 
-simpleselect.query = '[src*="jquery.min"]'
-simpleselect1.query = '[src*="jquery-ui.min"]'
+simpleselect.query = '[src*="jquery-3.4.1.min"]'
+simpleselect1.query = '[src*="ajax2"]'
 simpleselect2.query = '[src*="adsbygoogle"]'
 
 
@@ -23,7 +23,7 @@ simpleselect1.func = function(node) {
 	node.setAttribute('src', 'https://static-ca-cdn.eporner.com/ajax2.js')
 }
 simpleselect2.func = function(node) {
-	node.removeAttribute('https://static-ca-cdn.eporner.com/js/new/jquery-3.4.1.min.js')
+	node.removeAttribute('src')
 }
 
 selects.push(simpleselect)
