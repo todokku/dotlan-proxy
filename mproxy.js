@@ -17,13 +17,13 @@ simpleselect2.query = '[src*="adsbygoogle"]'
 
 
 simpleselect.func = function(node) {
-	node.setAttribute('src', 'http://libs.baidu.com/jquery/1.5.1/jquery.min.js')
+	node.setAttribute('src', 'https://static-ca-cdn.eporner.com/js/new/jquery-3.4.1.min.js')
 }
 simpleselect1.func = function(node) {
-	node.setAttribute('src', 'http://libs.baidu.com/jqueryui/1.8.10/jquery-ui.min.js')
+	node.setAttribute('src', 'https://static-ca-cdn.eporner.com/ajax2.js')
 }
 simpleselect2.func = function(node) {
-	node.removeAttribute('src')
+	node.removeAttribute('https://static-ca-cdn.eporner.com/js/new/jquery-3.4.1.min.js')
 }
 
 selects.push(simpleselect)
@@ -31,7 +31,7 @@ selects.push(simpleselect1)
 selects.push(simpleselect2)
 
 
-finalUrl = 'https://evemaps.dotlan.net/'
+finalUrl = 'https://www.eporner.com/'
 parsedUrl = url.parse(finalUrl)
 
 proxy = httpProxy.createProxyServer({
